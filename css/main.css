@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F2EAE2;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 600px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image-product {
+    width: 50%;
+}
+
+.image-product img {
+    height: 100%;
+}
+
+.information-product {
+    width: 50%;
+    background-color: white;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.perfume {
+    font-family: "Montserrat", sans-serif;
+    color: #6C7289;
+    font-weight: 500;
+    font-size: 12px;
+    margin: 16px 0px;
+}
+
+.title {
+    font-family: "Fraunces", serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.description {
+    font-family: "Montserrat", sans-serif;
+    color: #6C7289;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.price-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+    
+}
+
+.price-permfume-one {
+    justify-content: flex-start;
+    display: flex;
+    color: #3D8168;
+    font-weight: 700;
+    font-size: 32px;
+    width: 100%;
+    text-decoration: underline;
+}
+
+.price-permfume-second {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    display: flex;
+    color: #6C7289;
+    margin-left: 8px;
+    justify-content: flex-start;
+    width: 100%;
+    text-decoration:line-through;
+}
+
+.purchase-product {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-to-cart-product {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+    background-color: #3D8168;
+    text-decoration: none;
+    height: 60px;
+    width: 100%;
+    border-radius: 16px;
+    color: white;
+}
+
+.add-to-cart-product:hover {
+    box-shadow: 1px 0px 30px black;
+    transition-duration: 0.4;
+}
+
+.shape {
+    margin: 8px;
+}
